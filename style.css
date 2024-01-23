@@ -1,0 +1,35 @@
+body {
+    background: orange
+    border-box:border-box;
+}
+button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.wrapper{
+    width: 1511px;
+    height: 886;
+    border-radius: 24px;
+    background: linear-gradient(305deg, #fff 57.1%, #fcfbff);
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    padding:  48px 87px;
+    padding-right: 65px;
+
+}
+.logo_button{
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.8%;
+    cursor: pointer;
+
+}
+.nav{
+    display: inline-block;
+}
