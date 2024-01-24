@@ -1,6 +1,6 @@
-body {
-    background: orange
-    border-box:border-box;
+body{
+    background: #FEBB41;;
+    box-sizing: border-box;
 }
 button{
     border: none;
@@ -10,7 +10,7 @@ button{
 }
 .wrapper{
     width: 1511px;
-    height: 886;
+    height: 886px;
     border-radius: 24px;
     background: linear-gradient(305deg, #fff 57.1%, #fcfbff);
     display: block;
@@ -20,16 +20,33 @@ button{
     padding-right: 65px;
 
 }
-.logo_button{
-    color: black;
+.logo-button{
+    color: #000;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 139.8%;
     cursor: pointer;
-
 }
 .nav{
     display: inline-block;
+    margin-left: 352px;
+}
+.nav_elem{
+    display: inline-block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%;
+    cursor: pointer;
+}
+.search_input{
+    width: 314px;
+    height: 60px;
+    padding-left: 41px;
+    padding-right: 35px;
+
 }
