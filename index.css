@@ -1,10 +1,10 @@
 body{
 
     background: #FEBB41;
-
+    
+    box-sizing: border-box ;
 }
-button
-{
+button{
     border:none;
     background:none;
     cursor:pointer;
