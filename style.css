@@ -31,7 +31,7 @@ button{
 }
 .nav{
     display: inline-block;
-    margin-left: 352px;
+    margin-left: 129px;
 }
 .nav_elem{
     display: inline-block;
@@ -43,10 +43,16 @@ button{
     line-height: 94.8%;
     cursor: pointer;
 }
+.nav_elem_btn{
+    font-weight: 400;
+    font-size: 22px;
+}
 .search_input{
     width: 314px;
     height: 60px;
     padding-left: 41px;
     padding-right: 35px;
-
+    border-radius: 30px;
+    background: rgba(255, 249, 240, 0.10);
+    box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.10)  
 }
