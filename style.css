@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    border: none;
+    background: none;
+    padding: 0;
+    box-sizing: border-box; 
+}
 body{
-    background: #FEBB41;;
-    box-sizing: border-box;
+    background: #FEBB41;
 }
 button{
     border: none;
@@ -31,7 +37,7 @@ button{
 }
 .nav{
     display: inline-block;
-    margin-left: 129px;
+    margin-left: 110px;
 }
 .nav_elem{
     display: inline-block;
@@ -42,6 +48,7 @@ button{
     font-weight: 400;
     line-height: 94.8%;
     cursor: pointer;
+    margin-left: 56px;
 }
 .nav_elem_btn{
     font-weight: 400;
@@ -54,5 +61,12 @@ button{
     padding-right: 35px;
     border-radius: 30px;
     background: rgba(255, 249, 240, 0.10);
-    box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.10)  
+    box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.10);
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.8%;
+    margin-left: 90px;
 }
